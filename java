@@ -2,17 +2,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>
-            My page
-        </title>
-        <meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Start page</title>
     </head>
-    <body>
-        <form action="start.jsp">
-            <input type="submit" name="button" value="submit"> 
-        </form>
-        <form action="do">
-            <input type="submit" name="button" value="submit"> 
-        </form>
-    </body>
+    <frameset rows="15%, 85%">
+        <frame src="menu.jsp" name="menu" scrolling="no" noresize id="menu">
+        <frame src="body.html" name="body" noresize>
+    </frameset>
 </html>
